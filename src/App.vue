@@ -3,6 +3,13 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <router-link to="/Ejemplor">Ejemplor</router-link>
+      <router-link to="/Vif">Ejemplo Vif</router-link>
+      <router-link to="/Vfor">Ejemplo Vfor</router-link>
+      <router-link to="/Vmodel">Ejemplo model</router-link>
+      <router-link to="/Von">Ejemplo Von</router-link>
+
+      
     </nav>
     <router-view/>
   </div>

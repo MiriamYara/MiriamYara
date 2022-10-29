@@ -1,6 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import Ejemplor from '../views/Ejemplor.vue'
+import Ejemplo2 from '../views/Ejemplo2.vue'
+import Vif from '../views/Vif.vue'
+import Vfor from '../views/Vfor.vue'
+import Vmodel from '../views/Vmodel.vue'
+import Von from '../views/Von.vue'
+
 
 Vue.use(VueRouter)
 
@@ -9,6 +16,36 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/Ejemplor',
+    name: 'Ejemplor',
+    component: Ejemplor
+  },
+  {
+    path: '/Ejemplo2',
+    name: 'Ejemplo2',
+    component: Ejemplo2
+  },
+  {
+    path: '/Vif',
+    name: 'Vif',
+    component: Vif
+  },
+  {
+    path: '/Vfor',
+    name: 'Vfor',
+    component: Vfor
+  },
+  {
+    path: '/Vmodel',
+    name: 'Vmodel',
+    component: Vmodel
+  },
+  {
+    path: '/Von',
+    name: 'Von',
+    component: Von
   },
   {
     path: '/about',
