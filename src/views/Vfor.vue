@@ -13,7 +13,7 @@
          <label for="años"></label>
          <input type="text" v-model="años">{{años}}
          <br/>
-         <button v-on:click="datos">Acaptar</button>
+         <button v-on:click="datos">Aceptar</button>
 
     </div>
 </template>
