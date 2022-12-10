@@ -7,11 +7,25 @@ import Vif from '../views/Vif.vue'
 import Vfor from '../views/Vfor.vue'
 import Vmodel from '../views/Vmodel.vue'
 import Von from '../views/Von.vue'
+import Actualizar from "../views/actualizar.vue";
+
 
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/',
+    name: 'Ejemplo2',
+    component: Ejemplo2
+  },
+  {
+    path: "/actualizar/:id",
+    name: "actualizar",
+    component: Actualizar,
+
+  },
+  
   {
     path: '/',
     name: 'home',

@@ -1,5 +1,6 @@
 <template>
     <div>
+        <siderbar></siderbar>
          {{mensaje}}
          <br/>
          {{numero}}
@@ -25,8 +26,9 @@
     </div>
 </template>
 <script>
+import Siderbar from '../components/Siderbar.vue';
 export default{
-    name:"Vfor.vue",
+    name:"Vif",
     props:{
 
     },
@@ -47,6 +49,9 @@ export default{
         datos(){
           alert(this.nombre+" "+this.apellido+" "+this.documento+" "+this.cargo)  
         }
+    },
+    components:{
+        Siderbar
     }
 }
 

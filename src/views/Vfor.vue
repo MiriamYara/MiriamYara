@@ -1,5 +1,6 @@
 <template>
     <div>
+        <siderbar></siderbar>
          {{mensaje}}
          <br/>
          {{numero}}
@@ -18,8 +19,11 @@
     </div>
 </template>
 <script>
+import Siderbar from '../components/Siderbar.vue';
+import Navbar from '../components/Navbar.vue';
+import Footer from '../components/Footer.vue';
 export default{
-    name:"Vfor.vue",
+    name:"Vfor",
     props:{
 
     },
@@ -38,6 +42,11 @@ export default{
         datos(){
           alert(this.nombre+" "+this.raza+" "+this.años)  
         }
+    },
+    components:{
+        Siderbar,
+        Navbar,
+        Footer
     }
 }
 

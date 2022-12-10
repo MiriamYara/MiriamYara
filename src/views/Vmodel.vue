@@ -22,8 +22,9 @@
     </div>
 </template>
 <script>
+import Siderbar from '../components/Siderbar.vue';
 export default{
-    name:"Vfor.vue",
+    name:"Vmodel",
     props:{
 
     },
@@ -43,6 +44,9 @@ export default{
         datos(){
           alert(this.nombreproducto+" "+this.precio+" "+this.referencia+" "+this.garantia)  
         }
+    },
+    components:{
+        Siderbar
     }
 }
 
